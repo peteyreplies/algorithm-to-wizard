@@ -1,9 +1,7 @@
-Cloud To Butt Plus
+Algorithm to wizard
 =============
 
-Chrome extension that replaces occurrences of 'the cloud' with 'my butt', and other amusing cloud-related substitutions.
-
-[Direct download of crx file](https://github.com/hank/cloud-to-butt/blob/master/CloudToButt.crx?raw=true)
+Chrome extension that replaces occurrences of 'algorithm(s)' with 'wizard(s)'; forked from cloud-to-butt.
 
 Screenshot Gallery
 ------------------
