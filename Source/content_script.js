@@ -33,12 +33,20 @@ function walk(node)
 function handleText(textNode) {
 	var v = textNode.nodeValue;
 
+  // fix 'an', althouhg it doesn't work for certain bolded/italicized wizards 
+  v = v.replace(/\b(A|a)n\s(A|a)lgorithm/g, function(match, p1, offset, string) {
+    a = String.fromCharCode(p1.charCodeAt(0));
+    w = String.fromCharCode(p1.charCodeAt(0) + 22);
+    return a + " wizard";
+  });
+
   // Deal with the easy case
   v = v.replace(/\b(A|a)lgorithm/g, function(match, p1, offset, string) {
     w = String.fromCharCode(p1.charCodeAt(0) + 22);
     return w + "izard";
   });
+
+
+
 	textNode.nodeValue = v;
 }
-
-
