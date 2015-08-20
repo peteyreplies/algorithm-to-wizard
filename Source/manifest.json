@@ -1,7 +1,7 @@
 {
 	"manifest_version": 1,
 	"name": "Algorithm to Wizard",
-	"version": "1.1",
+	"version": "1.2",
 	"description": "Replaces the text 'algorithm(s)' with 'wizard(s)'; based on Cloud To Butt Plus",
 	"content_scripts": 
 	[
